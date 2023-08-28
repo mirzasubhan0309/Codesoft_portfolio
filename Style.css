@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+Nav ul li a:hover{
+    color: aqua;
+}
+
+.logo {
+    width: 10%;
+    justify-content: space-between;
+    position: absolute;
+}
+
+button {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.detel {
+    margin: 8%;
+    margin-top: 15%;
+}
+
+.detel h1 {
+    font-size: 50px;
+    color: beige;
+    margin-bottom: 20px;
+}
+
+span {
+    color: aqua;
+}
+
+.detel {
+    color: #555;
+    line-height: 22px;
+}
+
+img {
+    width: 300px;
+    text-align: right;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    padding-bottom: 100px;
+}
+
+
+* {box-sizing:border-box}
+
+.skill {
+    text-align: center;
+    padding-top: 20%;
+}
+
+.container {
+  width: 30%; 
+  background-color: #ddd;
+}
+
+.skills {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;}
+
+  
